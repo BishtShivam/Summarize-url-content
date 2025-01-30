@@ -14,6 +14,7 @@ Key Feature: Simply input a website URL, and the system instantly provides a sum
 Challenges Tackled: Navigating complex web structures, fine-tuning the integration with Langchain to ensure accurate and relevant summaries.
 
 🔧 Technologies Used:
+
 Langchain
 
 Python
