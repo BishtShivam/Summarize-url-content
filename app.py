@@ -30,7 +30,7 @@ Content: {{text}}
 
 prompt=PromptTemplate(template=prompt_template, input_variables=["text"])
 
-if st.button("Summarize the url content"):
+if st.button("Generate Summary"):
     # validate inputs
     if not groq_api_key.strip() or not generic_url.strip():
         st.error("Please provide the innformation")
